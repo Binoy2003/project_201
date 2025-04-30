@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+header {
+  background: #2f3640;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+nav{
+  background: #c23616;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10px; 
+}
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 0 10px;;
+}
+
+nav a{
+  color: #fff;
+  text-decoration: none;
+  fornt-size: 18px;
+}
+section{
+  display: flex;
+  justify-content: space-between;
+}
+
+div{
+  background: #487eb0;
+  flex-basis: 60%;
+  padding: 25px 30px;
+  color:yellow;
+}
+aside{
+  background: #ff793f;
+  flex-basis: 38%;
+  padding: 25px 30px;
+}
+
+aside ul{
+  margin-left: 18px;
+  margin-top: 10px;
+}
+
+footer {
+  background:#B33771;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+#hero{
+  background: #2f3640;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  height: 150px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero h2{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#hero a{
+  background-color:#3742fa ;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 15px;
+  font-size: 14px;  
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+}
+.button:hover {
+  background-color: #c23616;
+  transform: scale(1.05);
+}
